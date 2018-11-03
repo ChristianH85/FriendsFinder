@@ -18,7 +18,7 @@ let friends = {
     {
         "name": "Mia",
         "photo":"http://fr.web.img6.acsta.net/medias/nmedia/18/36/02/52/18889985.jpg",
-        "scores":[5,3,4,2,4,1,4,3,5,4]////needs work
+        "scores":[5,3,4,2,4,1,4,3,5,4]
     },
     {
         "name": "Marcelus",
