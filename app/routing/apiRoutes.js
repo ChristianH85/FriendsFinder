@@ -5,7 +5,7 @@ console.log(friends)
 
 module.exports = function (app){
         app.get("/api/friends", function (req, res) {
-            console.log(friends)
+            
             res.json(friends)
         })
     
@@ -19,10 +19,10 @@ module.exports = function (app){
             }
 
             let newInput = req.body
-            let newName = userInput.name
-            let newPhoto = userInput.photo
-            let newAns = userInput.scores
-            console.log(userInput)
+            let newName = req.body.name
+            let newPhoto = req.body.photo
+            let newAns = req.body.scores
+            
             let scoreDiff = 0
             
             for(let i =0; i = friends.length; i++){
