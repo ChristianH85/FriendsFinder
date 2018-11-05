@@ -1,5 +1,5 @@
-let friends = {
-     bffs:[
+let friends = [
+     
    {
         "name": "Vincent",
         "photo":"https://www.cheatsheet.com/wp-content/uploads/2014/06/Pulp_Fiction_Marvin_640x360_64275523687.jpg?x16659",
@@ -26,6 +26,6 @@ let friends = {
         "scores":[1,3,4,1,5,4,5,2,1,1]
     }
 ]
-}
 
-module.exports = friends.js
+
+module.exports = friends
