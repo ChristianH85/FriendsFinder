@@ -174,7 +174,7 @@
             ]
         }
         console.log(userInput)
-        var currentURL = window.location.origin
+        let currentURL = window.location.origin
         $.post(currentURL + "/api/friends", userInput, function (data) {
             console.log(data)
             $('#friendName').text(data.name)
