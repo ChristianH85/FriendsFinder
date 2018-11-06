@@ -9,7 +9,7 @@ module.exports = function (app){
             res.json(friends)
         })
     
-        app.post("api/friends", function(req, res){
+        app.post("/api/friends", function(req, res){
             console.log("post here")
             console.log(req)
             let match = {
@@ -28,7 +28,7 @@ module.exports = function (app){
             for(let i =0; i = friends.length; i++){
                 
                 for(let j = 0; i < 10; i++ ){
-                    scoreDiff =Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j])) 
+                    scoreDiff =Math.abs(parseInt(newAns[j]) - parseInt(friends[i].scores[j])) 
                 }
                
                 // I need a sort function but i cant seem to get the user input which is making testing it frustrating. 
